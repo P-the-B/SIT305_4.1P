@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EventPlanner</string>
+
+    <string-array name="event_categories">
+        <item>Work</item>
+        <item>Social</item>
+        <item>Travel</item>
+    </string-array>
+</resources>
