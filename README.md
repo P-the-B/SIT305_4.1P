@@ -29,6 +29,12 @@ First time generating project from start to finish.
 But required a hell of a lot of prompting and a watchful eye. 
 AI was used for most code generation and debugging. All code reviewed and tested by myself.
 
+-- short story -- Skip if you are bored!
+my 2c on AI-assisted development: Its a genuine productivity tool but it is not a substitute for understanding.
+The bugs that caused the most lost time — the wrong gradle file, the AGP version mismatch, the status bar rabbit hole,
+all required human judgement to identify and resolve. The ability and  willingness to question outputs rather than blindly 
+paste them is what keeps the project on track and on spec.
+
 ## Details
 - Min SDK: API 26
 - Target SDK: API 36
