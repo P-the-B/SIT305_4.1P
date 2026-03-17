@@ -16,7 +16,6 @@ import com.example.eventplanner.R;
 import com.example.eventplanner.adapter.EventAdapter;
 import com.example.eventplanner.data.Event;
 import com.example.eventplanner.data.EventDatabase;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +40,6 @@ public class EventListFragment extends Fragment {
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
         emptyView = view.findViewById(R.id.emptyView);
-        FloatingActionButton fab = view.findViewById(R.id.fabAddEvent);
 
         adapter = new EventAdapter(new ArrayList<>(), new EventAdapter.OnEventClickListener() {
             // pass the event ID to the edit form via nav args
@@ -74,9 +72,6 @@ public class EventListFragment extends Fragment {
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(adapter);
-
-        fab.setOnClickListener(v ->
-                Navigation.findNavController(view).navigate(R.id.addEditEventFragment));
 
         loadEvents(view);
     }

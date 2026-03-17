@@ -26,14 +26,4 @@
         android:textSize="16sp"
         android:visibility="gone" />
 
-    <!-- shortcut button to add screen, sits bottom right -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabAddEvent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        android:contentDescription="Add Event"
-        app:srcCompat="@android:drawable/ic_input_add" />
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
