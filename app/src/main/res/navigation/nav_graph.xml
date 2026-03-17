@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- defines all screens and how to navigate between them -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/eventListFragment">
+
+    <!-- home screen - loads first on app open -->
+    <fragment
+        android:id="@+id/eventListFragment"
+        android:name="com.example.eventplanner.fragments.EventListFragment"
+        android:label="My Events" />
+
+    <!-- add/edit screen - eventId arg determines which mode it runs in -->
+    <fragment
+        android:id="@+id/addEditEventFragment"
+        android:name="com.example.eventplanner.fragments.AddEditEventFragment"
+        android:label="Add / Edit Event">
+
+        <!-- default -1 means add mode, any real ID means edit mode -->
+        <argument
+            android:name="eventId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+
+    </fragment>
+
+</navigation>
