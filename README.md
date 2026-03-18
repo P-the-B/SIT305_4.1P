@@ -41,13 +41,38 @@ paste them is what keeps the project on track and on spec.
 - Language: Java
 - AGP: 9.1.0
 
-## Screen Shots
-<img width="530" height="1059" alt="image" src="https://github.com/user-attachments/assets/2f8a8e04-97b5-402a-b2f8-28f2e02ba6b5" />
-<img width="509" height="1133" alt="image" src="https://github.com/user-attachments/assets/b9d2dd21-664c-4f6c-a66b-cfb0a7570cdd" />
-<img width="520" height="1113" alt="image" src="https://github.com/user-attachments/assets/e62f9282-6b90-40de-97ac-c0f86f6b327e" />
-<img width="513" height="1144" alt="image" src="https://github.com/user-attachments/assets/96881283-5574-4fc2-842a-d05dca89843b" />
-<img width="520" height="1157" alt="image" src="https://github.com/user-attachments/assets/f5ae7fbd-d134-498f-bdeb-ed828ceabe42" />
-<img width="528" height="1147" alt="image" src="https://github.com/user-attachments/assets/d63cdbff-0896-4f67-b055-d1c2bfe0b5e0" />
-<img width="531" height="1139" alt="image" src="https://github.com/user-attachments/assets/9264e928-4f2d-4ed1-9631-dc2de5262e75" />
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/2f8a8e04-97b5-402a-b2f8-28f2e02ba6b5" width="250">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b9d2dd21-664c-4f6c-a66b-cfb0a7570cdd" width="250">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e62f9282-6b90-40de-97ac-c0f86f6b327e" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/96881283-5574-4fc2-842a-d05dca89843b" width="250">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/f5ae7fbd-d134-498f-bdeb-ed828ceabe42" width="250">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d63cdbff-0896-4f67-b055-d1c2bfe0b5e0" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/9264e928-4f2d-4ed1-9631-dc2de5262e75" width="250">
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 
